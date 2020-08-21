@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  width: 50%;
+  border: 1px solid black;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#search {
+  text-align: center;
+  font-size: large;
+}
+
+#taskInput {
+  text-align: center;
+  font-size: large;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.app {
+  text-align: center;
+  width: 75%;
+}
+
+.app h1 {
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+#todo-application {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  font-style: italic;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+#list .delete-button {
+  color: red;
+  text-transform: uppercase;
+}
+
+#list .favoriteBtn {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn div {
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: greenyellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.line {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-Home-Work</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="app">
+            <h1>ToDo-Home-Work</h1>
+            <input type="text" id="search" placeholder="Поиск">
+            <section>
+                <div class="btn">
+                    <div id="all">Все задачи</div>
+                    <div id="complete">Выполненые</div>
+                    <div id="favorite">Важные задачи</div>
+                </div>
+            </section>
+            <section id="todo-application">
+                <input type="text" id="taskInput" placeholder="Введите задачу">
+                <ul id="list"></ul>
+                <button id="save">Сохранить все</button>
+                <button id="clear">Очистить все</button>
+            </section>
+            <div>
+                <div>Выполненые задачи: <span class="completeSpan"></span></div>
+                <div>Важные задачи: <span class="favoriteSpan"></span></div>
+            </div>
+        </div>
+</div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
